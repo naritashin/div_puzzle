@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body,div{
+  margin: 0px;
+}
+div{position: relative;}
+
+.float{
+  float: left;
+}
+
+
+.clearfix::before,
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.deepbluebox{
+  width: 400px;
+  height: 100px;
+  background: #141f40;
+  position: relative;
+}
+
+.purplebox{
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  border: solid 10px white;
+}
+
+.purplegroup{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/*.purplegroup{
+  nth-child(2):
+}
+*/
+.skybluebox{
+  width: 150px;
+  height: 250px;
+  background: #80bfa8;
+}
+
+.redbox{
+  width: 250px;
+  height: 250px;
+  background: #8c2727;
+  z-index: -1;
+}
+
+.lightorangebox{
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  border: solid 5px white;
+  margin: 10px;
+}
+
+.lightorangegroup{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.orangebox{
+  width: 400px;
+  height: 100px;
+  background: #d98d30;
+}
+
+.yellowbox{
+  width: 150px;
+  height: 50px;
+  background: #dbd400;
+}
+
+.lightbluebox{
+  width: 150px;
+  height: 100px;
+  background: #0093b7;
+}
+
+.fleshbox{
+  width: 100px;
+  height: 150px;
+  background: #ff9e6b;
+}
