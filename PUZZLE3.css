@@ -3,6 +3,10 @@
 body,div{
   margin: 0px;
 }
+<<<<<<< HEAD:PUZZLE3.css
+=======
+/*div{position: relative;}*/
+>>>>>>> 0edf628a6c775d3f9d944ebfde8c032ec265ff25:bacePUZZLE.css
 
 .float{
   float: left;
@@ -36,6 +40,7 @@ body,div{
   right: 20px;
 }
 
+<<<<<<< HEAD:PUZZLE3.css
 .purplebox:nth-child(2){
   border-left: 0px;
   border-right: 0px;: 
@@ -50,6 +55,21 @@ body,div{
 .box5 {
   float: left;
 }
+=======
+/*.purplegroup:nth-child(2){
+
+}
+*/
+.box1 {
+  width: 400px;
+}
+.box3 {
+  float: right;
+}
+.box5 {
+  float: left;
+}
+>>>>>>> 0edf628a6c775d3f9d944ebfde8c032ec265ff25:bacePUZZLE.css
 .skybluebox{
   width: 150px;
   height: 250px;
@@ -58,9 +78,13 @@ body,div{
 
 .redbox{
   width: 250px;
-  height: 250px;
+  height: 100px;
   background: #8c2727;
+<<<<<<< HEAD:PUZZLE3.css
   position: relative;
+=======
+  /*z-index: -1;*/
+>>>>>>> 0edf628a6c775d3f9d944ebfde8c032ec265ff25:bacePUZZLE.css
 }
 
 .lightorangebox{
